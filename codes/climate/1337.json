@@ -1,0 +1,107 @@
+{
+    "manufacturer": "Samsung",
+    "supportedModels": [
+        "DANIEL"
+    ],
+    "supportedController": "MQTT",
+    "commandsEncoding": "Raw",
+    "minTemperature": 16.0,
+    "maxTemperature": 25.0,
+    "precision": 1.0,
+    "operationModes": [
+        "cool"
+    ],
+    "fanModes": [
+        "low",
+        "med",
+        "high"
+    ],
+    "swingModes": [
+        "stop",
+        "swing"
+    ],
+    "commands": {
+        "off": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"Off\",\"Celsius\":\"On\",\"Temp\":20,\"FanSpeed\":\"Min\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+        "cool": {
+            "low": {
+                "swing": {
+                    "16": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":16,\"FanSpeed\":\"Min\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "17": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":17,\"FanSpeed\":\"Min\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "18": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":18,\"FanSpeed\":\"Min\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "19": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":19,\"FanSpeed\":\"Min\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "20": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":20,\"FanSpeed\":\"Min\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "21": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":21,\"FanSpeed\":\"Min\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "22": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":22,\"FanSpeed\":\"Min\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "23": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":23,\"FanSpeed\":\"Min\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "24": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":24,\"FanSpeed\":\"Min\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "25": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":25,\"FanSpeed\":\"Min\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}"
+                },
+                "stop": {
+                    "16": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":16,\"FanSpeed\":\"Min\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "17": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":17,\"FanSpeed\":\"Min\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "18": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":18,\"FanSpeed\":\"Min\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "19": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":19,\"FanSpeed\":\"Min\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "20": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":20,\"FanSpeed\":\"Min\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "21": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":21,\"FanSpeed\":\"Min\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "22": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":22,\"FanSpeed\":\"Min\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "23": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":23,\"FanSpeed\":\"Min\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "24": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":24,\"FanSpeed\":\"Min\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "25": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":25,\"FanSpeed\":\"Min\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}"
+                }
+            },
+            "med": {
+                "swing": {
+                    "16": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":16,\"FanSpeed\":\"Medium\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "17": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":17,\"FanSpeed\":\"Medium\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "18": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":18,\"FanSpeed\":\"Medium\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "19": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":19,\"FanSpeed\":\"Medium\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "20": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":20,\"FanSpeed\":\"Medium\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "21": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":21,\"FanSpeed\":\"Medium\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "22": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":22,\"FanSpeed\":\"Medium\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "23": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":23,\"FanSpeed\":\"Medium\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "24": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":24,\"FanSpeed\":\"Medium\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "25": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":25,\"FanSpeed\":\"Medium\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}"
+                },
+                "stop": {
+                    "16": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":16,\"FanSpeed\":\"Medium\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "17": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":17,\"FanSpeed\":\"Medium\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "18": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":18,\"FanSpeed\":\"Medium\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "19": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":19,\"FanSpeed\":\"Medium\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "20": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":20,\"FanSpeed\":\"Medium\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "21": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":21,\"FanSpeed\":\"Medium\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "22": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":22,\"FanSpeed\":\"Medium\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "23": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":23,\"FanSpeed\":\"Medium\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "24": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":24,\"FanSpeed\":\"Medium\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "25": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":25,\"FanSpeed\":\"Medium\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}"
+                }
+            },
+            "high": {
+                "swing": {
+                    "16": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":16,\"FanSpeed\":\"High\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "17": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":17,\"FanSpeed\":\"High\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "18": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":18,\"FanSpeed\":\"High\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "19": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":19,\"FanSpeed\":\"High\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "20": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":20,\"FanSpeed\":\"High\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "21": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":21,\"FanSpeed\":\"High\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "22": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":22,\"FanSpeed\":\"High\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "23": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":23,\"FanSpeed\":\"High\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "24": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":24,\"FanSpeed\":\"High\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "25": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":25,\"FanSpeed\":\"High\",\"SwingV\":\"On\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}"
+                },
+                "stop": {
+                    "16": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":16,\"FanSpeed\":\"High\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "17": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":17,\"FanSpeed\":\"High\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "18": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":18,\"FanSpeed\":\"High\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "19": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":19,\"FanSpeed\":\"High\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "20": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":20,\"FanSpeed\":\"High\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "21": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":21,\"FanSpeed\":\"High\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "22": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":22,\"FanSpeed\":\"High\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "23": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":23,\"FanSpeed\":\"High\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "24": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":24,\"FanSpeed\":\"High\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                    "25": "{\"Vendor\":\"SAMSUNG_AC\",\"Model\":-1,\"Mode\":\"Cool\",\"Power\":\"On\",\"Celsius\":\"On\",\"Temp\":25,\"FanSpeed\":\"High\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"On\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}"
+                }
+            }
+        }
+    }
+}
+
